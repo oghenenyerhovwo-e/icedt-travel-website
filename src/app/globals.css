@@ -23,8 +23,8 @@
   --clr-text: #000;
   --clr-primary:  #FF5200;
 
-  --clr-grey-1: hsl(0, 0%, 80%);
-  --clr-grey-2: hsl(0, 0%, 40%);
+  --clr-grey-1: #D8D8D8;
+  --clr-grey-2: #4A4A4A;
 
 }
 
@@ -83,6 +83,8 @@ h6{
 
 a{
   text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 img{
