@@ -1,13 +1,19 @@
 "use client"
 
-import Link from "next/link"
-import Image from "next/image"
+// modules
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { FiSearch } from 'react-icons/fi'; 
 import { FaAngleDown, FaRegBookmark, FaBars, FaTimes } from 'react-icons/fa'
 
+// components
+import Link from "next/link"
+import Image from "next/image"
+
+// objects, functions and assets
 import { profilePic } from "@/assets"
+
+// css
 import styles from "./navbar.module.css"
 
 const Navbar = () => {

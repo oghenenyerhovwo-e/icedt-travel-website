@@ -1,14 +1,5 @@
 import {
     profilePic,
-    raftingPic,
-    natureWalkPic,
-    bikeRidingPic,
-    bungeeJumping,
-    wineTastingPic,
-    coffeeTastingPic,
-    farmVisitPic,
-    campingPic,
-    kiberaTourPic,
     derekDumPic,
     derekDumPic2,
     mopesaLogo,
@@ -17,19 +8,11 @@ import {
     paypalLogo,
     masterCardLogo,
     usaLogo,
+    group14,
 } from "./images"
 
 export {
     profilePic,
-    raftingPic,
-    natureWalkPic,
-    bikeRidingPic,
-    bungeeJumping,
-    wineTastingPic,
-    coffeeTastingPic,
-    farmVisitPic,
-    campingPic,
-    kiberaTourPic,
     derekDumPic,
     derekDumPic2,
     mopesaLogo,
@@ -38,4 +21,5 @@ export {
     paypalLogo,
     masterCardLogo,
     usaLogo,
+    group14,
 }
