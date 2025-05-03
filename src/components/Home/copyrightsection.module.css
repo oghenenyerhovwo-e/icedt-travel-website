@@ -1,0 +1,13 @@
+.copyrightSection{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+  }
+  
+  .copyrightSection > p {
+    font-size: 0.75rem;
+    color: #333;
+    line-height: 1.125rem;
+  }

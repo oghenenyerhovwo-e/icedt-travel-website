@@ -1,0 +1,66 @@
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footerLinksSection{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footerLinksSection > h4 {
+  font-weight: 700;
+  font-size: 0.8125rem;
+}
+
+.footerLinksContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footerLink{
+  font-size: 0.8125rem;
+  color: var(--clr-grey-2);
+}
+
+.group14Pic{
+  width: min(100%, 6.875rem);
+}
+
+.mail{
+  display: flex;
+  max-width: 14rem;
+}
+
+.mailText{
+  max-width: 14rem;
+  text-align: justify;
+}
+
+.mail > button {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  padding: 0.45rem 0.6rem;
+  color: #fff;
+  background-color: var(--clr-primary);
+  border: none;
+}
+
+.mail > input {
+  border: 1px solid #E4E4E4;
+  font-size: 0.8125rem;
+  outline: none;
+  padding: 0.45rem 0.6rem;
+  border-radius: 0.1;
+}

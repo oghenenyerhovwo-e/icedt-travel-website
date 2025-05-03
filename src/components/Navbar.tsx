@@ -9,6 +9,7 @@ import { FaAngleDown, FaRegBookmark, FaBars, FaTimes } from 'react-icons/fa'
 // components
 import Link from "next/link"
 import Image from "next/image"
+import ThemeToggle from "./ThemeToggle";
 
 // objects, functions and assets
 import { profilePic } from "@/assets"
@@ -53,6 +54,7 @@ const Navbar = () => {
               <Image src={profilePic} alt="profile" />
               <span className={styles.profilePicIcon}><FaAngleDown /></span>
             </div>
+            <ThemeToggle />
             </div>
             {/* Hamburger for mobile */}
             <div className={styles.hamburger} onClick={toggleMenu}>

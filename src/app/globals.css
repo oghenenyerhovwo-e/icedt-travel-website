@@ -32,11 +32,14 @@
 }
 
 html[data-theme='dark'] {
-  --clr-background: #fff;
-  --clr-text: #000;
-  --clr-primary: #FF5200;
-  --clr-grey-1: hsl(0, 0%, 30%);
-  --clr-grey-2: hsl(0, 0%, 65%);
+  --clr-background: #121212;    /* Deep background for a clean dark theme */
+  --clr-text: #ffffff;          /* Bright text for strong readability */
+  --clr-primary: #FF5200;       /* Keep your brand orange — it pops well on dark */
+  --clr-secondary: #56C1C4;     /* A slightly brighter tone of your original teal for contrast */
+
+  --clr-grey-1: #2C2C2C;        /* Light grey background elements */
+  --clr-grey-2: #B0B0B0;        /* Muted text, borders, or secondary info */
+  --clr-grey-3: #7A7A7A; 
 
 }
 
